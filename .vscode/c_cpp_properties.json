@@ -4,10 +4,10 @@
             "name": "Linux", // or "Mac" or "Win32"
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/sethcarl2000/miniconda3/envs/root-env/include"
+                "/home/ckx5qj/miniforge3/envs/phys56xx/include"
             ],
             "defines": [],
-            "compilerPath": "/home/sethcarl2000/miniconda3/envs/root-env/bin/g++",
+            "compilerPath": "/home/ckx5qj/miniforge3/envs/phys56xx/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "linux-gcc-x64" // adjust for your platform
