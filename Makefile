@@ -6,10 +6,8 @@ LIBS       = $(ROOTLIBS) -lASImage
 GLIBS      = $(ROOTGLIBS)
 GXX	   = g++ -Wall -O3
 
-simpix_start:  simpix_start.cpp Utils.cpp
+simpix_start:  simpix_start.cpp Utils.cpp Utils.hpp
 	$(GXX) -o simpix_start simpix_start.cpp Utils.cpp $(ROOTCFLAGS) $(LIBS) $(ROOTGLIBS)
-
-
 
 clean:
 	rm -f simpix_start out.png
