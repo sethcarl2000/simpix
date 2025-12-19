@@ -35,7 +35,7 @@ Going the other way, you can use:
 
 ```bash 
 
-Which takes **44.20 s** to execute. 
+Which takes **45.64 s** to execute. 
 
 
 
